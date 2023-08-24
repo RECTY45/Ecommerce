@@ -1,78 +1,79 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
-  }
-  
-  .discount {
-    padding: 15px 25px;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-  }
-  
-  .discount p {
-    color: rgba(255, 255, 255, 0.808);
-    font-size: 12px;
-  }
-  
-  span {
-    text-decoration: underline;
-  }
-  
-  .container {
-    margin: 35px 95px 15px;
-    padding: 0px;
-    border: none;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-  }
-  
-  .left-section {
-    display: flex;
-    align-items: center; 
-  }
-  
-  .center-section {
-    display: flex;
-    gap: 25px;
-  }
-  
-  .right-section {
-    display: flex;
-    align-items: center; 
-  }
-  
-  .search-container {
-    position: relative;
-    display: flex; 
-    align-items: center; 
-  }
-  
-  .search-input {
-    padding: 8px 40px 8px 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .search-icon {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    color: #777;
-    cursor: pointer;
-  }
-  
-  .icon-container {
-    padding: 10px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
-  
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.discount {
+  padding: 15px 25px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.discount p {
+  color: rgba(255, 255, 255, 0.808);
+  font-size: 12px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 35px 95px 15px;
+  padding: 0px;
+  border: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+}
+
+.center-section {
+  display: flex;
+  gap: 25px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 8px 40px 8px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #777;
+  cursor: pointer;
+}
+
+.icon-container {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

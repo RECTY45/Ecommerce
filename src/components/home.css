@@ -3,3 +3,37 @@
     padding: 0px;
     border: none;
   }
+  
+    .side {
+      padding: 20px;
+      padding-top: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    .side p{
+      padding: 10px 10px;
+      position: relative;
+      left: 60px;
+    }
+  
+        .slider {
+          background: var(--text-2, #000);
+          border-radius: 29px;
+          margin-top: 45px;
+          position: relative;
+          left: 300px;
+          width: 892px;
+          height: 344px;
+          flex-shrink: 0;
+          align-self: flex-end;
+        }
+    
+        img {
+          width: 396px;
+          height: 270px;
+          flex-shrink: 0;
+          margin: 6vh 0px 0px 72vh;
+        }
